@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		533B642D291A174700A5FFB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B642C291A174700A5FFB4 /* AppDelegate.swift */; };
 		533B642F291A174700A5FFB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B642E291A174700A5FFB4 /* SceneDelegate.swift */; };
-		533B6431291A174700A5FFB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B6430291A174700A5FFB4 /* ViewController.swift */; };
 		533B6434291A174700A5FFB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533B6432291A174700A5FFB4 /* Main.storyboard */; };
 		533B6437291A174700A5FFB4 /* DrinkOrder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 533B6435291A174700A5FFB4 /* DrinkOrder.xcdatamodeld */; };
 		533B6439291A174800A5FFB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533B6438291A174800A5FFB4 /* Assets.xcassets */; };
@@ -17,6 +16,11 @@
 		533B6447291A174800A5FFB4 /* DrinkOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B6446291A174800A5FFB4 /* DrinkOrderTests.swift */; };
 		533B6451291A174800A5FFB4 /* DrinkOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B6450291A174800A5FFB4 /* DrinkOrderUITests.swift */; };
 		533B6453291A174800A5FFB4 /* DrinkOrderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B6452291A174800A5FFB4 /* DrinkOrderUITestsLaunchTests.swift */; };
+		533B6460291A18A000A5FFB4 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B645F291A18A000A5FFB4 /* OrderTableViewController.swift */; };
+		533B6465291A190800A5FFB4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B6464291A190800A5FFB4 /* Item.swift */; };
+		533B6467291A281500A5FFB4 /* OrderDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B6466291A281500A5FFB4 /* OrderDetailTableViewController.swift */; };
+		533B646B291CC2FF00A5FFB4 /* OrderDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B646A291CC2FF00A5FFB4 /* OrderDetailTableViewCell.swift */; };
+		533B646D292376C700A5FFB4 /* ReviseOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533B646C292376C700A5FFB4 /* ReviseOrderTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		533B6429291A174700A5FFB4 /* DrinkOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		533B642C291A174700A5FFB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		533B642E291A174700A5FFB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		533B6430291A174700A5FFB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		533B6433291A174700A5FFB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		533B6436291A174700A5FFB4 /* DrinkOrder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrinkOrder.xcdatamodel; sourceTree = "<group>"; };
 		533B6438291A174800A5FFB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		533B644C291A174800A5FFB4 /* DrinkOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		533B6450291A174800A5FFB4 /* DrinkOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOrderUITests.swift; sourceTree = "<group>"; };
 		533B6452291A174800A5FFB4 /* DrinkOrderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOrderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		533B645F291A18A000A5FFB4 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		533B6464291A190800A5FFB4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		533B6466291A281500A5FFB4 /* OrderDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailTableViewController.swift; sourceTree = "<group>"; };
+		533B646A291CC2FF00A5FFB4 /* OrderDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailTableViewCell.swift; sourceTree = "<group>"; };
+		533B646C292376C700A5FFB4 /* ReviseOrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReviseOrderTableViewController.swift; path = DrinkOrder/Controller/ReviseOrderTableViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +111,9 @@
 			children = (
 				533B642C291A174700A5FFB4 /* AppDelegate.swift */,
 				533B642E291A174700A5FFB4 /* SceneDelegate.swift */,
-				533B6430291A174700A5FFB4 /* ViewController.swift */,
-				533B6432291A174700A5FFB4 /* Main.storyboard */,
-				533B6438291A174800A5FFB4 /* Assets.xcassets */,
-				533B643A291A174800A5FFB4 /* LaunchScreen.storyboard */,
+				533B6463291A18EE00A5FFB4 /* Model */,
+				533B6462291A18DB00A5FFB4 /* View */,
+				533B6461291A18C700A5FFB4 /* Controller */,
 				533B643D291A174800A5FFB4 /* Info.plist */,
 				533B6435291A174700A5FFB4 /* DrinkOrder.xcdatamodeld */,
 			);
@@ -128,6 +135,35 @@
 				533B6452291A174800A5FFB4 /* DrinkOrderUITestsLaunchTests.swift */,
 			);
 			path = DrinkOrderUITests;
+			sourceTree = "<group>";
+		};
+		533B6461291A18C700A5FFB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				533B6466291A281500A5FFB4 /* OrderDetailTableViewController.swift */,
+				533B645F291A18A000A5FFB4 /* OrderTableViewController.swift */,
+				533B646C292376C700A5FFB4 /* ReviseOrderTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		533B6462291A18DB00A5FFB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				533B6432291A174700A5FFB4 /* Main.storyboard */,
+				533B646A291CC2FF00A5FFB4 /* OrderDetailTableViewCell.swift */,
+				533B643A291A174800A5FFB4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		533B6463291A18EE00A5FFB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				533B6438291A174800A5FFB4 /* Assets.xcassets */,
+				533B6464291A190800A5FFB4 /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533B6431291A174700A5FFB4 /* ViewController.swift in Sources */,
+				533B646D292376C700A5FFB4 /* ReviseOrderTableViewController.swift in Sources */,
+				533B6467291A281500A5FFB4 /* OrderDetailTableViewController.swift in Sources */,
+				533B6465291A190800A5FFB4 /* Item.swift in Sources */,
+				533B646B291CC2FF00A5FFB4 /* OrderDetailTableViewCell.swift in Sources */,
+				533B6460291A18A000A5FFB4 /* OrderTableViewController.swift in Sources */,
 				533B642D291A174700A5FFB4 /* AppDelegate.swift in Sources */,
 				533B642F291A174700A5FFB4 /* SceneDelegate.swift in Sources */,
 				533B6437291A174700A5FFB4 /* DrinkOrder.xcdatamodeld in Sources */,
@@ -449,6 +489,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,6 +518,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
