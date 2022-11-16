@@ -65,7 +65,7 @@ struct DataFetch{
     var id : String?
     let customerOrderUrl = URL(string: "https://api.airtable.com/v0/appjWCiyvOXAXRU5Z/customerInfo")!
     
-    let apiKey = "Bearer \("Your API Key")"
+    let apiKey = "Bearer MY API Key"
     //下載商品資料
     func itemDataFetch(completion : @escaping (Result<[Item.Record], Error>) -> Void){
         let url = itemUrl
